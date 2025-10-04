@@ -9,6 +9,5 @@
     name:
       - git
       - base-devel
-      - gcc-fortran
     state: present
   become: true

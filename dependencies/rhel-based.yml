@@ -8,7 +8,6 @@
   ansible.builtin.package:
     name:
       - '@Development Tools'
-      - gcc-gfortran
       # Fedora doesn't install this with the Development Tools group.
       - gcc-g++
     state: present

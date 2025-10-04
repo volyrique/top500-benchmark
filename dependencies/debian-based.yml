@@ -10,7 +10,6 @@
     name:
       - git
       - build-essential
-      - gfortran
       - automake
     state: present
   become: true

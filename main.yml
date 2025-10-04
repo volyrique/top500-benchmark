@@ -48,10 +48,9 @@
       environment:
         - CFLAGS: "-flto=auto"
         - CXXFLAGS: "-flto=auto"
-        - FFLAGS: "-fallow-argument-mismatch -flto=auto"
         - LDFLAGS: "-flto=auto"
       loop:
-        - ./configure --enable-fast=O3,ndebug --enable-g=none --prefix="{{ hpl_root }}/mpich" --with-device=ch3:sock
+        - ./configure --disable-fortran --enable-fast=O3,ndebug --enable-g=none --prefix="{{ hpl_root }}/mpich" --with-device=ch3:sock
         - "make -j{{ ansible_processor_nproc }}"
 
     - name: Install MPI.
