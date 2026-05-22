@@ -171,6 +171,7 @@ Here are a few of the results I've acquired in my testing (sorted by efficiency,
 | [Raspberry Pi 5 16 GB (BCM2712)](https://github.com/geerlingguy/top500-benchmark/issues/51) | Arm | 37.888 Gflops | 13.8W | 2.75 Gflops/W |
 | [Arduino Uno Q (4x Kryo-V2)](https://github.com/geerlingguy/top500-benchmark/issues/80) | Arm | 9.60 Gflops | 3.5W | 2.74 Gflops/W |
 | [Intel Core Ultra 7 265K](https://github.com/geerlingguy/top500-benchmark/issues/86) | x86 | 741.10 Gflops | 273W | 2.71 Gflops/W |
+| [Framework 12 (i3-1315U)](https://github.com/geerlingguy/top500-benchmark/issues/97) | x86 | 64.555 Gflops | 24W | 2.69 Gflops/W |
 | [LattePanda Mu (1x N100)](https://github.com/geerlingguy/top500-benchmark/issues/30) | x86 | 62.851 Gflops | 25W | 2.51 Gflops/W |
 | [Compute Blade Cluster (CM5 16GB x10)](https://github.com/geerlingguy/top500-benchmark/issues/68) | Arm | 324.66 Gflops | 132W | 2.46 Gflops/W |
 | [Radxa X4 (1x N100)](https://github.com/geerlingguy/top500-benchmark/issues/38) | x86 | 37.224 Gflops | 16W | 2.33 Gflops/W |
